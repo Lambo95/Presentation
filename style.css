@@ -19,6 +19,12 @@ h1, h2 {
     color: #ffffff;
 }
 
+a {
+    color: #ff4d4d;
+    text-decoration: none;
+
+}
+
 p {
     line-height: 1.6;
 }
