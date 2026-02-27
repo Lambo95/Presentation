@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamberto - Presentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="lang-switch">
+        <button onclick="setLang('it')">🇮🇹 Italiano</button>
+        <button onclick="setLang('en')">🇬🇧 English</button>
+    </nav>
+</header>
+
+<main class="container">
+
+    <figure class="photo-box">
+        <img src="profile.jpg" alt="Foto Profilo">
+    </figure>
+
+    <!-- ITALIANO -->
+    <article id="it" class="lang">
+
+        <section>
+            <h1>🌐 Full‑Stack Developer Journey</h1>
+            <p>Ho seguito diversi percorsi formativi per diventare <strong>FULL‑STACK DEVELOPER</strong>!  
+            🎓 Ho studiato presso <strong>Epicode School</strong>.</p>
+        </section>
+
+        <section>
+            <h2>💻 Tecnologie apprese</h2>
+            <ul>
+                <li>✨ HTML</li>
+                <li>✨ CSS</li>
+                <li>✨ Bootstrap</li>
+                <li>✨ JavaScript</li>
+                <li>✨ TypeScript</li>
+                <li>✨ Angular</li>
+                <li>✨ .NET</li>
+                <li>✨ Java</li>
+                <li>✨ SQL Server Management Studio</li>
+                <li>…e molto altro!</li>
+            </ul>
+        </section>
+
+        <section>
+            <p>🧩 Da tre anni lavoro nel settore dell’automazione industriale come <strong>MES Consultant</strong>.</p>
+        </section>
+
+        <section>
+            <h2>🔥 Formazione attuale</h2>
+            <p>Per restare aggiornato, crescere e migliorare, ho deciso di tornare a studiare… ancora una volta con Epicode School!  
+            📚 Corso attuale: <strong>Python, AI & Machine Learning</strong>.</p>
+        </section>
+
+        <section>
+            <h2>👤 Su di me</h2>
+            <p>Sono appassionato di <strong>programmazione</strong> e <strong>sicurezza informatica</strong>, ambiti nei quali ho seguito diversi corsi.</p>
+
+            <p>Ho completato un percorso professionalizzante di 6 mesi full‑time presso Epicode School, approfondendo:</p>
+
+            <ul>
+                <li>🎨 Front‑end: HTML, CSS, librerie e framework, consolidando JavaScript.</li>
+                <li>⚙️ Back‑end: C#, .NET, ASP.NET e SQL, dopo la specializzazione in Angular.</li>
+            </ul>
+
+            <p>Oggi desidero mettere in pratica ciò che ho imparato e continuare a crescere professionalmente.</p>
+
+            <p>♟️ Amo gli scacchi, la letteratura e il cinema.  
+            ❤️ Tifoso del <strong>Genoa CFC</strong>.</p>
+        </section>
+
+    </article>
+
+    <!-- ENGLISH -->
+    <article id="en" class="lang" style="display:none;">
+
+        <section>
+            <h1>🌐 Full‑Stack Developer Journey</h1>
+            <p>I have completed several training paths to become a <strong>FULL‑STACK DEVELOPER</strong>!  
+            🎓 I studied at <strong>Epicode School</strong>.</p>
+        </section>
+
+        <section>
+            <h2>💻 Technologies learned</h2>
+            <ul>
+                <li>✨ HTML</li>
+                <li>✨ CSS</li>
+                <li>✨ Bootstrap</li>
+                <li>✨ JavaScript</li>
+                <li>✨ TypeScript</li>
+                <li>✨ Angular</li>
+                <li>✨ .NET</li>
+                <li>✨ Java</li>
+                <li>✨ SQL Server Management Studio</li>
+                <li>…and more!</li>
+            </ul>
+        </section>
+
+        <section>
+            <p>🧩 For three years I have been working in the industrial automation sector as a <strong>MES Consultant</strong>.</p>
+        </section>
+
+        <section>
+            <h2>🔥 Current studies</h2>
+            <p>To stay updated, grow, and improve, I decided to study again… once more with Epicode School!  
+            📚 Current course: <strong>Python, AI & Machine Learning</strong>.</p>
+        </section>
+
+        <section>
+            <h2>👤 About me</h2>
+            <p>I am passionate about <strong>programming</strong> and <strong>cybersecurity</strong>, fields in which I have taken several courses.</p>
+
+            <p>I completed a 6‑month full‑time professional course at Epicode School, deepening:</p>
+
+            <ul>
+                <li>🎨 Front‑end: HTML, CSS, libraries and frameworks, consolidating JavaScript.</li>
+                <li>⚙️ Back‑end: C#, .NET, ASP.NET and SQL, after specializing in Angular.</li>
+            </ul>
+
+            <p>Now I want to apply what I have learned and continue growing professionally.</p>
+
+            <p>♟️ I love chess, literature and movies.  
+            ❤️ Genoa CFC supporter.</p>
+        </section>
+
+    </article>
+
+</main>
+
+<footer>
+    <p style="text-align:center; color:#666; margin-top:20px;">© 2026 Lamberto</p>
+</footer>
+
+<script>
+function setLang(lang) {
+    document.getElementById("it").style.display = lang === "it" ? "block" : "none";
+    document.getElementById("en").style.display = lang === "en" ? "block" : "none";
+}
+</script>
+
+</body>
+</html>
